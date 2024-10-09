@@ -1,0 +1,80 @@
+:root {
+  --main-text-color: #38184C;
+  --main-background-color: #A0CD60;
+}
+
+body {
+color: var(--main-text-color);
+background-color: var(--main-background-color);
+font-family: Calibri;
+}
+
+h1, h2 {
+  text-align: center;
+}
+.body-div {
+  margin: 0 auto;
+  min-width: 500px;
+  width: 50vw;
+}
+form {
+  font-size: 18px;
+  border: none;
+}
+fieldset {
+  border: none;
+}
+input, select, textarea {
+  font-size: 20px;
+  width: 100%;
+  background-color: #D9D9D9;
+  color: #1F0802;
+  border-radius: 3px;
+  border: none;
+  margin: 3px 0 5px 0;
+}
+label {
+  font-size: 20px
+}
+#terms-header {
+  font-size: 5rem;
+}
+#tos-outline {
+  margin: 0 auto;
+  min-width: 500px;
+  width: 40vw;
+  border: black solid 2px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#tos-outline p {
+  margin: 10px;
+}
+input[type=radio], input[type=checkbox] {
+  margin-left: auto;
+
+  display: inline;
+  width: auto;
+}
+#tos-link {
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+}
+.button-container {
+  text-align: center;
+}
+
+.reset-submit {
+
+  margin: 10px 10px;
+  display: inline-block;
+}
+
+hr {
+  width: 95%;
+  border-color: #38184C;
+}
+
